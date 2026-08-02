@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Hanqing Wang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .proj-grid { display: grid; grid-template-columns: 1fr; gap: 18px; margin-top: 20px; }
+  @media (min-width: 640px) { .proj-grid { grid-template-columns: 1fr 1fr; } }
+  .proj-card { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 4px; padding: 22px 24px; }
+  .proj-card .mono { display: block; margin-bottom: 8px; }
+  .placeholder-card { border-style: dashed; color: var(--ink-soft); display: flex; align-items: center; justify-content: center; min-height: 140px; text-align: center; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">Hanqing Wang</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom: 10px;">
+  <div class="wrap">
+    <span class="mono">Projects</span>
+    <h1 style="max-width: 18ch;">Other work, as it grows.</h1>
+    <p class="lede">This page holds work outside the core portfolio case study — technical projects, side experiments, and things I build to test new directions.</p>
+  </div>
+</header>
+
+<section class="block">
+  <div class="wrap">
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <span class="mono">AIOT · Group Project</span>
+        <h3>Mood Sensor — IoT + ML pipeline</h3>
+        <p>A wearable sensor pipeline (IMU + audio) feeding a real-time mood-classification model, with an AWS-based ingestion and scaling architecture designed for cost efficiency at scale.</p>
+      </div>
+
+      <div class="placeholder-card">Next project — add here as it's ready</div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Hanqing Wang · Updated August 2026 · <a href="mailto:you@email.com">you@email.com</a></p>
+</footer>
+
+</body>
+</html>

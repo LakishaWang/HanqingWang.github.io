@@ -27,7 +27,7 @@ body {
 }
 
 h1, h2, h3 { margin: 0; line-height: 1.2; letter-spacing: -0.01em; font-weight: 700; }
-h1 { font-size: clamp(1.7rem, 3.3vw, 2.4rem); color: var(--accent); }
+h1 { font-size: clamp(1.7rem, 3.1vw, 2.3rem); color: var(--accent); }
 h2 { font-size: clamp(1.5rem, 3vw, 2rem); color: var(--accent); }
 h3 { font-size: 1.12rem; color: var(--ink); font-weight: 700; }
 
@@ -120,9 +120,12 @@ section.block { padding: 60px 0; }
 .concurrent-line strong { color: var(--ink); font-weight: 600; }
 .concurrent-line span { color: var(--ink-soft); }
 
-/* Focus Areas pills inside At a Glance — right-aligned, smaller */
-.glance-row dd .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
-.glance-row dd .pill-fill { font-size: 0.7rem; padding: 4px 9px; }
+/* Focus Areas / Technical Toolkit inside At a Glance */
+.glance-tags { padding: 14px 0; border-top: 1px solid var(--line); }
+.glance-tags-label { font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: #9aa1ab; margin-bottom: 8px; display: block; }
+.glance-tags .pill-row { margin-top: 0; }
+.glance-tags .pill-fill { font-size: 0.72rem; padding: 4px 9px; }
+.glance-tags .pill-outline { font-size: 0.72rem; padding: 4px 9px; }
 
 /* Cards (case study / story bank) */
 .card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 24px 26px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); }

@@ -115,10 +115,14 @@ section.block { padding: 60px 0; }
 .skills-card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 20px 22px; margin-top: 18px; }
 .skills-card .cat-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--accent); display: block; margin-bottom: 12px; }
 
-.concurrent-list { margin: 22px 0; }
-.concurrent-item { padding: 14px 0; border-top: 1px solid var(--line); }
-.concurrent-item strong { color: var(--ink); font-size: 0.95rem; }
-.concurrent-item p { font-size: 0.88rem; margin-bottom: 0; }
+.concurrent-list { margin: 18px 0 22px; }
+.concurrent-line { padding: 9px 0; border-top: 1px solid var(--line); font-size: 0.88rem; color: var(--ink-soft); }
+.concurrent-line strong { color: var(--ink); font-weight: 600; }
+.concurrent-line span { color: var(--ink-soft); }
+
+/* Focus Areas pills inside At a Glance — right-aligned, smaller */
+.glance-row dd .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.glance-row dd .pill-fill { font-size: 0.7rem; padding: 4px 9px; }
 
 /* Cards (case study / story bank) */
 .card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 24px 26px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); }

@@ -69,6 +69,7 @@ section.block { padding: 60px 0; }
 /* Hero */
 .hero { padding: 72px 0 56px; }
 .hero h1 { max-width: 14ch; }
+@media (max-width: 640px) { .hero h1 { max-width: 100%; } }
 .hero .role-line { margin-top: 16px; font-size: 1.08rem; color: var(--ink-soft); max-width: 50ch; font-weight: 500; }
 .hero .lede { margin-top: 16px; font-size: 1rem; max-width: 58ch; }
 .hero-actions { margin-top: 26px; display: flex; gap: 12px; flex-wrap: wrap; }
@@ -104,6 +105,7 @@ section.block { padding: 60px 0; }
   font-size: 0.8rem; font-weight: 500; padding: 6px 13px; border-radius: 20px;
   background: var(--pill-fill-bg); color: var(--pill-fill-text);
 }
+.cat-label-plain { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--ink-soft); margin: 0 0 10px 0; }
 
 /* Outlined pills (Skills gained) */
 .pill-outline {
@@ -112,6 +114,11 @@ section.block { padding: 60px 0; }
 }
 .skills-card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 20px 22px; margin-top: 18px; }
 .skills-card .cat-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--accent); display: block; margin-bottom: 12px; }
+
+.concurrent-list { margin: 22px 0; }
+.concurrent-item { padding: 14px 0; border-top: 1px solid var(--line); }
+.concurrent-item strong { color: var(--ink); font-size: 0.95rem; }
+.concurrent-item p { font-size: 0.88rem; margin-bottom: 0; }
 
 /* Cards (case study / story bank) */
 .card { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 24px 26px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
